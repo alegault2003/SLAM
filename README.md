@@ -1,9 +1,9 @@
 Step 1: Install Dependencies
 You need Python packages and ROS 2 packages:
-# ROS 2 packages
+ ROS 2 packages
 sudo apt install ros-<ros2-distro>-rosbag2 ros-<ros2-distro>-sensor-msgs ros-<ros2-distro>-pcl-ros
 
-# Python packages
+Python packages
 pip install numpy sensor-msgs sensor-msgs-py
 Replace <ros2-distro> with your ROS 2 version (e.g., humble, galactic).
 Step 2: Set Up Cartographer ROS
@@ -62,3 +62,4 @@ ros2 run cartographer_ros cartographer_pbstream_to_ros_map \
   -pbstream_filename=your_map.pbstream \
   -map_filename=your_map
 This saves the 2D/3D map for later use.
+
