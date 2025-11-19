@@ -4,6 +4,11 @@ from rclpy.serialization import deserialize_message
 from rosidl_runtime_py.utilities import get_message
 from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import PointCloud2, PointField
+from std_msgs.msg import Header
+import sensor_msgs_py.point_cloud2 as pc2
 
 robot_height = 0.3
 laser_height = 0.08
@@ -38,6 +43,7 @@ def euler_from_quaternion(quaternion):
     return roll, pitch, yaw
 
 def read_bag(bag_path):
+    all_pointclouds = []
     storage_options = rosbag2_py.StorageOptions(
         uri=bag_path,
         storage_id="mcap"
@@ -77,6 +83,7 @@ def read_bag(bag_path):
                 print(recv_ts, "vertical")
 
     for i, (time, odom) in enumerate(odom_info):
+        frame_cloud = []
         pose = odom.pose.pose
 
         cur_x = pose.position.x
@@ -128,11 +135,12 @@ def read_bag(bag_path):
 
         # trans_ver2odom = np.concatenate(np.append(ver_rotation, rotation_zeros, axis=0), np.append(ver_translation, translation_one, axis=0), axis=-1)
         trans_ver2odom = np.eye(4)
-        trans_ver2odom[0:3, 0:3] = hor_rotation @ ver_rotation
+        trans_ver2odom[0:3, 0:3] = ver_rotation
         trans_ver2odom[0:3, 3] = ver_translation[0:3,0]
 
         angle = hor_angle_min
         hor_ranges_xy = []
+        
         for r in hor_ranges:
             x = r * np.cos(angle)
             y = r * np.sin(angle)
@@ -145,6 +153,8 @@ def read_bag(bag_path):
             ])
 
             point_transformed = trans_hor2odom @ point
+            frame_cloud.append(point_transformed[:3])
+          
 
             hor_ranges_xy.append(point_transformed)
             angle = angle + hor_angle_increment
@@ -170,9 +180,79 @@ def read_bag(bag_path):
             ])
 
             point_transformed = trans_ver2odom @ point
-
+            frame_cloud.append(point_transformed[:3])
             ver_ranges_xz.append(point_transformed)
             angle = angle + ver_angle_increment
+        all_pointclouds.append(np.array(frame_cloud))
+    return all_pointclouds
+#Dependencies
+#Make sure you have these installed:
+#ros2 pkg install sensor_msgs
+#ros2 pkg install pcl_ros  # optional, if using PCL
+#Python packages:
+#pip install numpy
 
+#Topic Name
+#In your Cartographer .launch or Lua config, set:
+#TRAJECTORY_BUILDER_3D.laser_min_range = 0.1
+#TRAJECTORY_BUILDER_3D.laser_max_range = 30.0
+#TRAJECTORY_BUILDER_3D.num_accumulated_range_data = 1
 
-read_bag("/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/test_bag")
+#-- Your ROS topic:
+#TRAJECTORY_BUILDER_3D.laser_topic = "/points_raw"
+#Frame
+#Make sure frame_id matches your Cartographer config (map, odom, or base_link).
+#Publishing Rate
+#The 0.1 timer interval in Python simulates a 10 Hz point cloud stream. Adjust to match your original sensor rate if needed.
+
+def numpy_to_pointcloud2(points, frame_id="map"):
+    """
+    points: Nx3 numpy array
+    """
+    fields = [
+        PointField(name='x', offset=0, datatype=PointField.FLOAT32, count=1),
+        PointField(name='y', offset=4, datatype=PointField.FLOAT32, count=1),
+        PointField(name='z', offset=8, datatype=PointField.FLOAT32, count=1),
+    ]
+    header = Header()
+    header.stamp = rclpy.time.Time().to_msg()
+    header.frame_id = frame_id
+
+    pc2_msg = pc2.create_cloud(header, fields, points)
+    return pc2_msg
+
+class BagPointCloudPublisher(Node):
+    def __init__(self, frame_clouds, topic_name="/points_raw", frame_id="map"):
+        super().__init__("bag_pointcloud_publisher")
+        self.pub = self.create_publisher(PointCloud2, topic_name, 10)
+        self.frame_clouds = frame_clouds
+        self.frame_id = frame_id
+        self.timer = self.create_timer(0.1, self.timer_callback)  # 10 Hz
+        self.index = 0
+
+    def timer_callback(self):
+        if self.index >= len(self.frame_clouds):
+            self.get_logger().info("Finished publishing all frames")
+            return
+
+        points = np.array(self.frame_clouds[self.index])
+        pc2_msg = numpy_to_pointcloud2(points, self.frame_id)
+        self.pub.publish(pc2_msg)
+        self.get_logger().info(f"Published frame {self.index} with {points.shape[0]} points")
+        self.index += 1
+def main(args=None):
+    import rclpy
+    from read_bag_your_code import read_bag  # your existing function
+
+    rclpy.init(args=args)
+
+    # Read rosbag and get frame clouds
+    frame_clouds = read_bag("/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/test_bag")
+
+    node = BagPointCloudPublisher(frame_clouds)
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
+
