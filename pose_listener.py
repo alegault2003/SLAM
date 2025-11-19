@@ -36,12 +36,12 @@ class PoseListener(Node):
 
         # Alternative using odometry
         # only if sensor is publishing to /odom
-        # self.odom_subscription = self.create_subscription(
-        #   Odometry,
-        #   '/odom',
-        #   self.odom_callback,
-        #   10
-        # )
+        self.odom_subscription = self.create_subscription(
+           Odometry,
+           '/odom',
+           self.odom_callback,
+           10
+        )
         self.get_logger().info(f'Pose listener started. Logging to {self.output_file}')
         self.get_logger().info('Waiting for pose messages...')
 
