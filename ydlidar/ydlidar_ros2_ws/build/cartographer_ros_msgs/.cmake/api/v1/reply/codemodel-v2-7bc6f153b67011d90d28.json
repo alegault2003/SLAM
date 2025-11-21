@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5a3debd5e88d5943959a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "cartographer_ros_msgs__py",
+					"jsonFile" : "directory-cartographer_ros_msgs__py-622377c93351a68b9bee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs/cartographer_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cartographer_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cartographer_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cartographer_ros_msgs_egg-35f2a58c6d3d12d2bb38.json",
+					"name" : "ament_cmake_python_build_cartographer_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_cartographer_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_cartographer_ros_msgs-84e13cd5ea2aeaae82d8.json",
+					"name" : "ament_cmake_python_symlink_cartographer_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs-d622c71a0769ffe3aa75.json",
+					"name" : "cartographer_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__cpp-d44c16ee799c4c3e5a6b.json",
+					"name" : "cartographer_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cartographer_ros_msgs__py::@5400b65ae5259b668574",
+					"jsonFile" : "target-cartographer_ros_msgs__py-d3569b4150b3c83f0c6f.json",
+					"name" : "cartographer_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_generator_c-8405ef23d5784829e1b2.json",
+					"name" : "cartographer_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_generator_py-1d6bad189c124993624f.json",
+					"name" : "cartographer_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_c-d30ad13c547b957fccb8.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_c__pyext-cadaf190fa4460c05a2d.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_cpp-8e7398ea9250fce6e92f.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_fastrtps_c-296fb3663e8f572459b9.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext-65fc70f5194815d1413c.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp-78a46fbb0bd7ee9585e3.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_introspection_c-0d40957dc95d269ae3f1.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext-8e4de19ee3f6680b8f56.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs__rosidl_typesupport_introspection_cpp-74007a0232f36ded9663.json",
+					"name" : "cartographer_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_msgs_uninstall-23e681dc133e26099790.json",
+					"name" : "cartographer_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e08ac0c4835393694b6f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs",
+		"source" : "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

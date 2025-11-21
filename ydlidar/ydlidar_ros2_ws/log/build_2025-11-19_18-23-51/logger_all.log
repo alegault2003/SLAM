@@ -1,0 +1,371 @@
+[0.192s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.192s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d8409137400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d8409136fb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d8409136fb0>>)
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(test_both) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.352s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.352s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.353s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': True, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': True, 'test_result_base': None}
+[0.433s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs -- -j8 -l8
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs -- -j8 -l8
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[1.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[1.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/bin'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/bin'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/bin'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.688s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/bin'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs' for CMake module files
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros_msgs
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs' for CMake config files
+[1.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.751s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib'
+[1.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/bin'
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/bin'
+[1.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs' for CMake module files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs' for CMake config files
+[1.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib'
+[1.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/bin'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/bin'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.775s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[1.775s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros'
+[1.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros -- -j8 -l8
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros -- -j8 -l8
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros
+[2.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros' for CMake module files
+[2.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros' for CMake config files
+[2.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib'
+[2.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'ld_library_path_lib')
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.sh'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/bin'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/bin'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[2.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[2.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros' for CMake module files
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros' for CMake config files
+[2.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib'
+[2.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'ld_library_path_lib')
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.ps1'
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.dsv'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/hook/ld_library_path_lib.sh'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/bin'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[2.268s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/bin'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[2.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[2.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[2.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_rviz'
+[2.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_rviz' returned '1': AMENT_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble LD_LIBRARY_PATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/lib:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_rviz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz
+[2.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz' for CMake module files
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz' for CMake config files
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/bin'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/bin'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[2.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[2.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.345s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.345s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.355s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.371s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/local_setup.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/_local_setup_util_ps1.py'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/setup.ps1'
+[2.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/local_setup.sh'
+[2.380s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/_local_setup_util_sh.py'
+[2.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/setup.sh'
+[2.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/local_setup.bash'
+[2.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/setup.bash'
+[2.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/local_setup.zsh'
+[2.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/setup.zsh'

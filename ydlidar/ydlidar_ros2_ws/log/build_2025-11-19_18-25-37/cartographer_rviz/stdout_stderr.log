@@ -1,0 +1,86 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Build type: Release
+-- Found cartographer_ros: 2.0.9003 (/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_ros/share/cartographer_ros/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)
+-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Deploy OGRE media
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_rviz
+[ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[ 16%] Built target cartographer_rviz_detect_changes
+[ 16%] Built target cartographer_rviz_autogen
+[ 33%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[100%] Built target cartographer_rviz
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz//rviz_plugin_description.xml
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/drawable_submap.h
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/ogre_slice.h
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/include/cartographer_rviz/cartographer_rviz/submaps_display.h
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+-- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/package.xml
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so
+-- Set runtime path of "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+-- Installing: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake

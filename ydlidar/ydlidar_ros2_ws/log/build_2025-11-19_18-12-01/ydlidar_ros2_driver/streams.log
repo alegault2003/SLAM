@@ -1,0 +1,196 @@
+[0.017s] Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.210s] -- The CXX compiler identification is GNU 11.4.0
+[0.222s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.350s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.502s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.507s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.317s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.356s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.425s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.433s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.446s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.560s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.564s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.703s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.829s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.843s] -- Looking for pthread.h
+[1.959s] -- Looking for pthread.h - found
+[1.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.080s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.082s] -- Found Threads: TRUE  
+[2.187s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.189s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.242s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.277s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.464s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.618s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.620s] -- Configured cppcheck include dirs: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src;/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/ydlidar_ros2_driver
+[2.620s] -- Configured cppcheck exclude dirs and/or files: 
+[2.622s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.625s] -- Added test 'lint_cmake' to check CMake code style
+[2.627s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.635s] -- Added test 'uncrustify' to check C / C++ code style
+[2.636s] -- Configured uncrustify additional arguments: 
+[2.637s] -- Added test 'xmllint' to check XML markup files
+[2.640s] -- Configuring done
+[2.679s] -- Generating done
+[2.695s] -- Build files have been written to: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[2.711s] Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver
+[2.714s] Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[2.800s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[2.805s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[2.808s] [ 37%] [32mBuilding CXX object CMakeFiles/vertical_driver_node.dir/src/vertical_driver_node.cpp.o[0m
+[2.808s] [ 50%] [32mBuilding CXX object CMakeFiles/horizontal_driver_node.dir/src/horizontal_driver_node.cpp.o[0m
+[2.829s] [ 50%] Built target ament_cmake_python_symlink_ydlidar_ros2_driver
+[3.443s] running egg_info
+[3.481s] creating ydlidar_ros2_driver.egg-info
+[3.481s] writing ydlidar_ros2_driver.egg-info/PKG-INFO
+[3.482s] writing dependency_links to ydlidar_ros2_driver.egg-info/dependency_links.txt
+[3.483s] writing top-level names to ydlidar_ros2_driver.egg-info/top_level.txt
+[3.483s] writing manifest file 'ydlidar_ros2_driver.egg-info/SOURCES.txt'
+[3.721s] reading manifest file 'ydlidar_ros2_driver.egg-info/SOURCES.txt'
+[3.723s] writing manifest file 'ydlidar_ros2_driver.egg-info/SOURCES.txt'
+[3.816s] [ 50%] Built target ament_cmake_python_build_ydlidar_ros2_driver_egg
+[8.562s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[8.562s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:191:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.562s]   191 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[8.563s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.563s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:192:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.563s]   192 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[8.563s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.563s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:193:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.564s]   193 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[8.564s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[8.595s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[8.596s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.596s]   201 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[8.596s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.597s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.597s]   202 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[8.597s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.597s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:203:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.598s]   203 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[8.598s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.154s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:[m[K In lambda function:
+[9.154s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:191:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.155s]   191 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.155s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.155s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:192:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.155s]   192 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.156s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.156s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:193:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.156s]   193 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.156s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.187s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:[m[K In lambda function:
+[9.187s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:201:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.188s]   201 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.188s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.188s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.188s]   202 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.189s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.189s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/horizontal_driver_node.cpp:203:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.189s]   203 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.189s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.738s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:[m[K In lambda function:
+[9.739s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:191:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.739s]   191 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.739s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.739s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:192:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.740s]   192 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.740s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.740s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:193:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.740s]   193 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.740s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.788s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:[m[K In lambda function:
+[9.788s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:201:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.788s]   201 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[9.788s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.789s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:202:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.789s]   202 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.789s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.789s] [01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/vertical_driver_node.cpp:203:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.789s]   203 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[9.790s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[18.895s] [ 62%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[18.935s] [ 75%] [32m[1mLinking CXX executable horizontal_driver_node[0m
+[20.442s] [ 87%] [32m[1mLinking CXX executable vertical_driver_node[0m
+[20.484s] [ 87%] Built target horizontal_driver_node
+[20.506s] [ 87%] Built target ydlidar_ros2_driver_node
+[21.526s] [ 87%] Built target vertical_driver_node
+[25.397s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[27.006s] [100%] Built target ydlidar_ros2_driver_client
+[27.040s] Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --build /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[27.098s] Invoking command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver
+[27.133s] -- Install configuration: ""
+[27.134s] -- Execute custom install script
+[27.140s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/collect_data.py
+[27.182s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[27.225s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[27.287s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/vertical_driver_node
+[27.328s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/horizontal_driver_node
+[27.375s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/pythonpath.sh
+[27.409s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/pythonpath.dsv
+[27.434s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO
+[27.459s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt
+[27.485s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt
+[27.508s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt
+[27.538s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver/__init__.py
+[27.586s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver/collect_data.py
+[27.629s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/collect_data.launch.py
+[27.653s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/horizontal_lidar.launch.py
+[27.685s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/two_lidar.launch.py
+[27.710s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/vertical_lidar.launch.py
+[27.734s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[27.757s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[27.780s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[27.804s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[27.829s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[27.849s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[27.871s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[27.892s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[27.915s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[27.936s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[27.958s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[27.980s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[28.001s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[28.024s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[28.048s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[28.070s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[28.092s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[28.114s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[28.139s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[28.162s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_horizontal.yaml
+[28.186s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_vertical.yaml
+[28.210s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[28.235s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[28.259s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[28.284s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[28.308s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[28.332s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[28.356s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[28.383s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[28.406s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[28.433s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[28.458s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[28.483s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[28.508s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[28.531s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[28.558s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[28.600s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[28.645s] -- Symlinking: /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[28.934s] Listing '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver'...
+[28.935s] Compiling '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver/__init__.py'...
+[28.935s] Compiling '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/ydlidar_ros2_driver/local/lib/python3.10/dist-packages/ydlidar_ros2_driver/collect_data.py'...
+[28.971s] Invoked command in '/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/slam:/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/install/simulation:/opt/ros/humble /usr/bin/cmake --install /home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver

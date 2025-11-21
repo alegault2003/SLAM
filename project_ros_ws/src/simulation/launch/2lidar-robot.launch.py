@@ -10,6 +10,8 @@ import xacro
 def generate_launch_description():
     urdf = os.path.join(get_package_share_directory('simulation'), 'scout-laser.urdf.xacro')
     robot_desc = xacro.process_file(urdf, mappings={'name' : 'laser_robot'}).toxml()
+    
+    # --- change the world path here ---
     world_path = os.path.join(get_package_share_directory('simulation'), "worlds", "project_world2")
 
     return LaunchDescription([

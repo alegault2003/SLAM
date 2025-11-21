@@ -47,7 +47,7 @@ class CollectLidar(Node):
         self.writer = rosbag2_py.SequentialWriter()
 
         storage_options = rosbag2_py.StorageOptions(
-            uri="test_bag",
+            uri="sim_data",
             storage_id="mcap"
         )
         converter_options = rosbag2_py.ConverterOptions("", "")

@@ -1,0 +1,15 @@
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/uninstall.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/ydlidar_ros2_driver_uninstall.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/ydlidar_ros2_driver_node.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/vertical_driver_node.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/horizontal_driver_node.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/ydlidar_ros2_driver_client.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/ament_cmake_python_symlink_ydlidar_ros2_driver.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/ament_cmake_python_build_ydlidar_ros2_driver_egg.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/test.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/edit_cache.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/rebuild_cache.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/list_install_components.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/install.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/install/local.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/CMakeFiles/install/strip.dir

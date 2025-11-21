@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:79:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_rviz/CMakeFiles/CMakeOutput.log".

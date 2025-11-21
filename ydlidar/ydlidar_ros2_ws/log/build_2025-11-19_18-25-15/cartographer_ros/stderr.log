@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lcartographer_rviz: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:592: libcartographer_ros.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

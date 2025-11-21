@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/ament_cmake_python/ydlidar_ros2_driver/setup.py", line 4, in <module>
+    setup(
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 148, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/dist.py", line 321, in __init__
+    _Distribution.__init__(self, dist_attrs)
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 309, in __init__
+    self.finalize_options()
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/dist.py", line 784, in finalize_options
+    ep(self)
+  File "/home/agathe/.local/lib/python3.10/site-packages/setuptools/dist.py", line 801, in _finalize_setup_keywords
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+    ordered = sorted(eps, key=by_group)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+    dist.entry_points for dist in unique(distributions())
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "/usr/lib/python3.10/pathlib.py", line 851, in joinpath
+    return self._make_child(args)
+  File "/usr/lib/python3.10/pathlib.py", line 616, in _make_child
+    drv, root, parts = self._parse_args(args)
+  File "/usr/lib/python3.10/pathlib.py", line 587, in _parse_args
+    return cls._flavour.parse_parts(parts)
+  File "/usr/lib/python3.10/pathlib.py", line 91, in parse_parts
+    parsed.reverse()
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ydlidar_ros2_driver_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ydlidar_ros2_driver_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/ament_cmake_python_build_ydlidar_ros2_driver_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

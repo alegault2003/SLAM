@@ -1,0 +1,16 @@
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/uninstall.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_ros_uninstall.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_ros.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_node.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_occupancy_grid_node.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_assets_writer.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_pbstream_map_publisher.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_pbstream_to_ros_map.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/cartographer_rosbag_validate.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/test.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/edit_cache.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/rebuild_cache.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/list_install_components.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/install.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/install/local.dir
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros/CMakeFiles/install/strip.dir

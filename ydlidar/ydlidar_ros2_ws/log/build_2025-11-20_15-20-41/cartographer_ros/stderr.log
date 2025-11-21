@@ -1,0 +1,8 @@
+[01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:[m[K In function ‘[01m[Kvoid cartographer_ros::RunOfflineNode(const MapBuilderFactory&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros/src/offline_node.cpp:176:13:[m[K [01;31m[Kerror: [m[K‘[01m[KFLAGS_collect_metrics[m[K’ was not declared in this scope; did you mean ‘[01m[KFLAGS_collect_metrics_offline[m[K’?
+  176 |             [01;31m[KFLAGS_collect_metrics[m[K);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KFLAGS_collect_metrics_offline[m[K
+gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:160: CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

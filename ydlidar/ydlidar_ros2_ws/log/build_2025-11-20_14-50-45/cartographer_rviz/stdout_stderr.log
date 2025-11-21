@@ -1,0 +1,5 @@
+[ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[ 16%] Built target cartographer_rviz_detect_changes
+gmake[2]: *** [CMakeFiles/cartographer_rviz_autogen.dir/build.make:71: CMakeFiles/cartographer_rviz_autogen] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/cartographer_rviz_autogen.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

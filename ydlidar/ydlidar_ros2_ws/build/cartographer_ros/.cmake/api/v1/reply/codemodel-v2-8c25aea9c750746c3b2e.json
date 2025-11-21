@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8cf13ace38a30dbc0e66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cartographer_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_assets_writer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_assets_writer-de3e1cca0eb108985ec8.json",
+					"name" : "cartographer_assets_writer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_node-da9ea22d15b067592597.json",
+					"name" : "cartographer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_occupancy_grid_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_occupancy_grid_node-bc23f3dfa98736374976.json",
+					"name" : "cartographer_occupancy_grid_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_pbstream_map_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_pbstream_map_publisher-e0411b02f96a8da8268b.json",
+					"name" : "cartographer_pbstream_map_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_pbstream_to_ros_map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_pbstream_to_ros_map-1d8759e6ac806a1ee11d.json",
+					"name" : "cartographer_pbstream_to_ros_map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros-074e98a2c94beff55b9d.json",
+					"name" : "cartographer_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_ros_uninstall-3003d763451f83caca8a.json",
+					"name" : "cartographer_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_rosbag_validate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_rosbag_validate-730ab86dd42a68f23410.json",
+					"name" : "cartographer_rosbag_validate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d730caf14d1ac9bd9a6a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/cartographer_ros",
+		"source" : "/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/src/cartographer_ros/cartographer_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

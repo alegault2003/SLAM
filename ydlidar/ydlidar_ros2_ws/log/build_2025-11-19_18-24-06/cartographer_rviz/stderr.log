@@ -1,0 +1,21 @@
+[31mCMake Error at CMakeLists.txt:59 (add_library):
+  Target "cartographer_rviz" links to itself.
+
+[0m
+[31mCMake Error at CMakeLists.txt:59 (add_library):
+  Target "cartographer_rviz" links to itself.
+
+[0m
+[31mCMake Error at CMakeLists.txt:59 (add_library):
+  Target "cartographer_rviz" links to itself.
+
+[0m
+[31mCMake Error at CMakeLists.txt:59 (add_library):
+  Target "cartographer_rviz" links to itself.
+
+[0m
+[31mCMake Error at CMakeLists.txt:59 (add_library):
+  Target "cartographer_rviz" links to itself.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

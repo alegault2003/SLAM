@@ -1,0 +1,32 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 99
+  starting_time:
+    nanoseconds_since_epoch: 1763590745
+  message_count: 1715
+  topics_with_message_count:
+    - topic_metadata:
+        name: vertical
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 756
+    - topic_metadata:
+        name: horizontal
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 959
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - test_both_0.mcap
+  files:
+    - path: test_both_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1763590745
+      duration:
+        nanoseconds: 99
+      message_count: 1715

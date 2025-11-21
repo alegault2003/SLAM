@@ -1,0 +1,1 @@
+/home/agathe/Documents/york/fall2025/robotics/project_ros_ws/ydlidar_ros2_ws/build/ydlidar_ros2_driver/ament_cmake_python/ydlidar_ros2_driver/ydlidar_ros2_driver.egg-info/dependency_links.txt
