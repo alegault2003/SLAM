@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'slam = slam.slam:main"
+            'slam = slam.slam:main',
+            'slam_sim = slam_sim:main',
+            'slam_real = slam_real:main'
         ],
     },
 )

@@ -4,7 +4,7 @@ import rosbag2_py
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
-from sensor_msgs.msg import LaserScan
+from sensor_msgs.msg import LaserScan, Imu
 from geometry_msgs.msg import Twist, Pose, Point, Quaternion
 from rclpy.serialization import serialize_message
 import time
@@ -47,7 +47,7 @@ class CollectLidar(Node):
         self.writer = rosbag2_py.SequentialWriter()
 
         storage_options = rosbag2_py.StorageOptions(
-            uri="sim_data",
+            uri="/media/agathe/External HD/sim_data_imu",
             storage_id="mcap"
         )
         converter_options = rosbag2_py.ConverterOptions("", "")
@@ -73,11 +73,23 @@ class CollectLidar(Node):
             serialization_format='cdr'
         )
         self.writer.create_topic(vertical_topic)
+        
+        imu_topic = rosbag2_py.TopicMetadata(
+            name="imu",
+            type='sensor_msgs/msg/Imu',
+            serialization_format='cdr'
+        )
+        self.writer.create_topic(imu_topic)
 
         self.create_subscription(Odometry, "/odom", self._odom_callback, 1)
         self.create_subscription(LaserScan, "/horizontal_scan", self._scan_callback_horizontal, 1)
         self.create_subscription(LaserScan, "/vertical_scan", self._scan_callback_vertical, 1)
+        self.create_subscription(Imu, "/imu_data", self._imu_callback, 1)
 
+    def _imu_callback(self, msg):
+        print("imu")
+        now = self.get_clock().now().nanoseconds
+        self.writer.write("imu", serialize_message(msg), now)
 
     def _scan_callback_horizontal(self, msg):
         angle_min = msg.angle_min
@@ -85,15 +97,21 @@ class CollectLidar(Node):
         angle_increment = msg.angle_increment
         ranges = msg.ranges
         
-        self.writer.write("horizontal", serialize_message(msg), int(time.time()))
+        print("horizontal")
+        now = self.get_clock().now().nanoseconds
+        
+        self.writer.write("horizontal", serialize_message(msg), now)
 
     def _scan_callback_vertical(self, msg):
         angle_min = msg.angle_min
         angle_max = msg.angle_max
         angle_increment = msg.angle_increment
         ranges = msg.ranges
+        
+        print("vertical")
+        now = self.get_clock().now().nanoseconds
 
-        self.writer.write("vertical", serialize_message(msg), int(time.time()))
+        self.writer.write("vertical", serialize_message(msg), now)
 
     def _odom_callback(self, msg):
         pose = msg.pose.pose
@@ -104,9 +122,12 @@ class CollectLidar(Node):
         roll, pitch, yaw = euler_from_quaternion(o)
         cur_t = yaw
         
+        print("odom")
+        now = self.get_clock().now().nanoseconds
+        
         # self.get_logger().info(f"at ({cur_x},{cur_y},{cur_t})")
         serialized = serialize_message(msg)
-        self.writer.write("odom", serialized, int(time.time()))
+        self.writer.write("odom", serialized, now)
 
 def main(args=None):
     rclpy.init(args=args)
